@@ -10,6 +10,22 @@
   * [How to Run the Program](#how-to-run-the-program)
   * [Running Tests](#running-tests)
 - [Usage Guide](#usage-guide)
+- habit-tracker/
+├── README.md
+├── LICENSE
+├── db/
+│   ├── db.py
+│   └── main.db
+├── src/
+│   ├── analytics.py
+│   ├── get.py
+│   ├── habit.py
+│   └── main.py
+└── tests/
+    ├── __init__.py
+    ├── test_db.py
+    ├── test_habit.py
+    
   * [Manage Habit or Category](#manage-habit-or-category)
     + [1. Create a Habit](#1-create-a-habit)
     + [2. Remove a Habit](#2-remove-a-habit)
@@ -173,3 +189,6 @@ Contributions are welcome! Fork the repository and submit a pull request. You ca
 3. Commit your changes.
 4. Push to the branch.
 5. Open a pull request.
+
+
+   
